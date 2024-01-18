@@ -14,6 +14,6 @@ namespace AutoBooking.Domain.Entities
         public int TotalRides { get; set; }
         public bool AvailabilityStatus { get; set; }
 
-         public User User { get; set; }
+         public User? User { get; set; }
     }
 }
